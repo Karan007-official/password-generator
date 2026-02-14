@@ -1,0 +1,53 @@
+*{
+ margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 50vw;
+  
+}
+
+
+.main{
+    border-radius: 30px;
+    /* border:5px solid black; */
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:pink;
+    width:30%;
+    height:70%;
+
+   
+}
+
+.firstDiv{
+    width: 100%;
+    height: 10%;
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#newPass{
+       display: flex;
+          flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+background-color: red;
+}
+#copyBtn{
+    scale: 3;
+
+
+}
+

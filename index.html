@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main" >
+        <div class="firstDiv">
+       <h1 id="newPass"></h1>
+       <i class="fa-solid fa-copy" id="copyBtn"></i>
+        </div>
+
+
+        <div class="secondDiv">
+            <input type="range"  id="range" min="6" max="100" value="10">
+        <p id="rangeVal" ></p>
+</div>
+
+ 
+
+
+
+        <div class="thirdDiv">
+            <input type="checkbox" name="capital" id="capital">
+            <label for="capital">UpperCase</label>
+            <br>
+    
+            <input type="checkbox" name="small" id="small">
+            <label for="small">LowerCase</label>
+            <br>
+            <input type="checkbox" name="number" id="number">
+            <label for="number">number</label>
+            <br>
+            <input type="checkbox" name="symbol" id="symbol">
+            <label for="symbol">symbol</label>
+        </div>
+
+
+<button id="genPass">Generate Password</button>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
